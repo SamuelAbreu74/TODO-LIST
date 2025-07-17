@@ -1,0 +1,83 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#17001f;
+    height: 800px;
+}
+
+i{
+    cursor: pointer;
+}
+
+.fa-plus{
+    background-color: #8c00ff;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.app-container{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    padding: 18px;
+    border: 5px solid #7700ff;
+    border-radius: 15px;
+    background-color: #bfb4ff;
+    overflow-y: scroll;
+}
+
+.app-container::-webkit-scrollbar{ width: 0 !important;}
+
+.header{
+    display: flex;
+    justify-content:left;
+    flex-direction: column;
+}
+
+#add-task{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #caa1ff;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;   
+}
+
+#tasks{
+    display: grid;
+    gap: 14px;
+}
+
+#tasks div{
+    background-color: #caa1ff;
+    border-radius: 5px;
+    padding: 10px;
+    border: 3px solid #7700ff;
+    display: grid;
+    gap: 4px;
+}
+
+#tasks div:hover{
+    box-shadow: 0px 0px 10px;
+    transition: 0.5s;
+}
+#add-task:hover{
+    box-shadow: 0px 0px 10px;
+    transition: 0.5s;
+}
+
+
+.options{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+#error-msg{
+    color: red;
+}
