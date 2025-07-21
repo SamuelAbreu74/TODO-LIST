@@ -3,6 +3,8 @@
 ## Descrição 📋
 Aplicação de uma TODO-LIST para praticar conceitos básicos de CRUD em JS. conta com gerenciamento de tarefas, permitindo que os usuários adicionem, visualizem e gerenciem suas tarefas diárias. 
 
+Link da Aplicação: https://todo-list74.vercel.app
+
 ## Funcionalidades 
 - ➕ Criar tarefas com:
   - Título (obrigatório)
@@ -18,14 +20,13 @@ Aplicação de uma TODO-LIST para praticar conceitos básicos de CRUD em JS. con
 | Bootstrap 5 | Componentes UI|
 
 ## Como Usar 
-1. Abra `index.html` no seu navegador favorito
-2. Clique em **"Add New Task"**
-3. Preencha os campos:
+1. Clique em **"Add New Task"**
+2. Preencha os campos:
    - Título (obrigatório)
    - Data (opcional)
    - Descrição (opcional)
-4. Clique em **"Add"** para salvar
-5. Visualize suas tarefas na lista principal
+3. Clique em **"Add"** para salvar
+4. Visualize suas tarefas na lista principal
 
 ## Estrutura do Projeto 📂
 todo-app/  
