@@ -3,7 +3,7 @@
 ## Descrição 📋
 Aplicação de uma TODO-LIST para praticar conceitos básicos de CRUD em JS. conta com gerenciamento de tarefas, permitindo que os usuários adicionem, visualizem e gerenciem suas tarefas diárias. 
 
-Link da Aplicação: https://todo-list74.vercel.app
+Link da Aplicação: todo-list74-git-main-samuel-abreus-projects.vercel.app
 
 ## Funcionalidades 
 - ➕ Criar tarefas com:
